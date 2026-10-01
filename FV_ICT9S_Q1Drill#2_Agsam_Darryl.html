@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+    section{
+    	background-color: #fff;
+    	padding: 20px;
+    	border-radius: 12px;
+    	width: 700px;
+    	margin: auto;
+    	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1,p{
+    	text-align: center;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input[type="text"], select, textarea, input[type="submit"] {
+    	width: 94%;
+    	padding: 15px;
+    	border: 1px solid #ccc;
+    	border-radius: 5px;
+    	text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+        <br>
+        <p>Review and survey about Avengers Endgame</p>
+    </header>
+    
+    <br>
+
+    <section>
+    <form>
+        <img style="display: block;height: 100px; width: 300px; margin: 0 auto; " src="https://i.redd.it/g8uh5tjf96321.png" alt="logo">
+    
+        <br>
+        <label for="movie">Avengers Endgae</label> 
+        <br>
+        <input type="text" id="movie" name="movie" placeholder="Type here...">
+     
+        <br>
+        <input type="checkbox" id="genre1" name="genre1">
+            <label for="genre1">Sci-Fi</label>
+        
+        <label for="rate">Rating</label>
+        <br>
+        <input type="radio" id="rate1" name="rate">
+            <label for="rate">⭐</label>
+    
+        <input type="radio" id="rate1" name="rate">
+            <label for="rate">⭐⭐</label>
+        
+        <input type="radio" id="rate1" name="rate">
+            <label for="rate">⭐⭐⭐</label>
+        
+        <input type="radio" id="rate1" name="rate">
+            <label for="rate">⭐⭐⭐⭐</label>
+        
+        <input type="radio" id="rate1" name="rate">
+            <label for="rate">⭐⭐⭐⭐⭐</label>
+        <!--make a copy of line 56 and 57, edit the ids and names. Name attribute should be the same for all-->
+
+        <br>
+        <textarea id="feedback" placeholder="Write a feedback" rows="4" cols="40"></textarea>
+
+        <br>
+        <input type="submit" id="feedback" value="Submit Feedback">
+
+        <br>
+        Click <a href="https://marvelcinematicuniverse.fandom.com/wiki/Avengers:_Endgame" target="_blank">here</a> to find out more about Avengers Endgame
+    </form>
+   </section>
+</body>
+</html>
